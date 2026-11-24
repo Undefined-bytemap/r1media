@@ -1,0 +1,28 @@
+# Build output and IDE/Gradle caches
+build/
+.gradle/
+.kotlin/
+.idea/
+*.iml
+captures/
+.cxx/
+.externalNativeBuild/
+
+# Built packages: don't distribute binaries
+*.apk
+*.aab
+*.ap_
+*.dex
+
+# Machine-specific paths and signing material
+local.properties
+*.jks
+*.keystore
+keystore.properties
+
+# Never commit device firmware or dumps
+*.bin
+*.img
+*.hex
+*.ota
+*.fw
